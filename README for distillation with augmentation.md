@@ -1,0 +1,3 @@
+`per_epoch.ipynb` contains the code to generate the per-epoch results used by `results.ipynb` to generate the plots and evaluation metrics discussed in the paper. These were used to generate the plot in the augmentation results. The augmentation of the student and teacher models and their widths can easily be changed in `per_epoch.ipynb`; `cross_validation.ipynb` generates cross-validated results for a 96-width teacher model and a 10-width student model.
+
+All of these assume the CelebA dataset is downloaded to `/nobackup/data/celebA`, but this can easily be modified by changing a constant value in each notebook.
